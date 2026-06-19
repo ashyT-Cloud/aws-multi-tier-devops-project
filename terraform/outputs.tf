@@ -17,3 +17,11 @@ output "alb_dns_name" {
 output "rds_endpoint" {
   value = aws_db_instance.mysql.endpoint
 }
+
+output "bucket_name" {
+  value = aws_s3_bucket.project_bucket.bucket
+}
+
+output "sns_topic" {
+  value = aws_sns_topic.alerts.name
+}

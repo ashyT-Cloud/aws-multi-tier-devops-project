@@ -4,3 +4,5 @@ terraform/*.tfstate
 terraform/*.tfstate.*
 terraform.tfvars
 *.pem
+app/node_modules/
+node_modules/

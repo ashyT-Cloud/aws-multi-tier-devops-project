@@ -29,7 +29,9 @@ dnf install -y docker
 systemctl enable docker
 systemctl start docker
 
-docker run -d -p 3000:80 nginx
+docker pull ashytcloud/fitness-app:v2
+
+docker run -d -p 3000:3000 ashytcloud/fitness-app:v2
 EOF
   )
 
